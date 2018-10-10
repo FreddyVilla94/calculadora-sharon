@@ -1,0 +1,79 @@
+
+body{
+	background-color: black;
+}
+
+.caja{
+	box-sizing: border-box;
+	width: 280px;
+	height: 500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px outset #B3B3B3;
+	border-radius: 19px;
+	-webkit-box-shadow: 4px 4px 14px #EBE4E4;
+	box-shadow: 4px 4px 14px #EBE4E4;
+	background-color: #FFFFFF;
+}
+
+.calculadora{;
+	width: 235px;
+	height: 440px;
+	box-sizing: border-box;
+	display: block;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-top: 23px;
+}
+
+
+#pantalla input{
+	width: 223px;
+	height: 85px;
+	background-color: #DDDDDD;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 2px;
+	box-sizing: border-box;
+	text-align: right;
+	font-size: 30px;
+	overflow-y: scroll;
+	display: block;
+}
+
+.celdas{
+	text-align: center;
+}
+
+.celdas button{
+	width: 55px;
+	height: 66px;
+	font-size: 20px;
+	margin-top: 4px;
+	border-radius: 5px;
+	border-width: 2px;
+	background-color: #FFFFFF;
+}
+
+#igual{
+	width: 55px;
+	height: 66px;
+	font-size: 20px;
+	border-radius: 5px;
+	border-width: 2px;
+	padding-bottom: 112px;
+	padding-top: 19px;
+	color: #FFFFFF;
+	background-color: #2980E8;
+}
+
+#espacio, #divicion, #multiplicar, #reset, #resta, #suma{
+	color: #2980E8;
+	background-color: #DDDDDD;
+}
+.styleBox{
+	padding: 1em;
+}

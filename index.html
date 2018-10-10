@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CALCULADORA JS</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<script src="js/codigo.js"></script>
+
+</head>
+
+<body onload="calcu();">
+
+	<div class="caja">
+
+		<table class="calculadora">
+
+			<tr>
+				<td colspan="4"><input id="pantalla" class="form-control" type="text"></td>
+				<!-- <td></td>
+			<td></td>
+			<td></td> -->
+			</tr>
+			<tr>
+				<td class="celdas"><button class="btn btn-outline-danger" id="reset">C</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="divicion">/</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="multiplicar">X</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="espacio">
+						<<</button> </td> </tr> <tr>
+				<td class="celdas"><button class="btn btn-outline-dark" id="siete">7</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="ocho">8</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="nueve">9</button></td>
+				<td class="celdas"><button class="btn btn-outline-dark" id="resta">-</button></td>
+			</tr>
+			<tr>
+				<td class="celdas"><button class="btn btn-outline-info" id="cuatro">4</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="cinco">5</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="seis">6</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="suma">+</button></td>
+			</tr>
+			<tr>
+				<td class="celdas"><button class="btn btn-outline-info" id="uno">1</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="dos">2</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="tres">3</button></td>
+				<td class="celdas" rowspan="2"><button id="igual">=</button></td>
+			</tr>
+			<tr>
+				<td class="celdas"><button class="btn btn-outline-info" id="porcentaje">%</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="cero">0</button></td>
+				<td class="celdas"><button class="btn btn-outline-info" id="decimal">.</button></td>
+				<td></td>
+			</tr>
+
+		</table>
+
+	</div>
+
+</body>
+
+</html>
